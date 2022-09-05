@@ -1,0 +1,57 @@
+
+/*
+color1 #212121
+color2 #757575
+accent #2196F3
+footer color2 rgba(255, 255, 255, 0.6)
+bkg color1 #ffffff
+bkg color2 #F5F4FA
+bkg color3 #2F303A
+
+*/
+
+:root {
+--color-primary:  #212121;
+--color-secondary: #757575;
+--bckg-primary: #ffffff;
+--bckg-secondary: #F5F4FA;
+
+
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26;
+  font-weight: 700;
+}
+.logo-begin {
+  color: #2196f3;
+}
+.logo-end-black {
+  color: #000000;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+  }
+
+.list :visited {
+  color: inherit;
+}
+.list :hover {
+  color: #2196f3;
+}
+
+.header-style{
+font-weight: 500;
+}
+
+.header-contacts{
+  color: #757575;
+}
