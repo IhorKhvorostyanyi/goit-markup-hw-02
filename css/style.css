@@ -48,6 +48,10 @@ body {
   color: #2196f3;
 }
 
+.list :focus{
+  color: #2196f3;
+}
+
 .header-style{
 font-weight: 500;
 }
