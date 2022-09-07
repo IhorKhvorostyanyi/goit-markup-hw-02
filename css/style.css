@@ -1,4 +1,3 @@
-
 /*
 color1 #212121
 color2 #757575
@@ -11,51 +10,146 @@ bkg color3 #2F303A
 */
 
 :root {
---color-primary:  #212121;
---color-secondary: #757575;
---bckg-primary: #ffffff;
---bckg-secondary: #F5F4FA;
-
-
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-accent: #2196f3;
+  --color-footer: rgba(255, 255, 255, 0.6);
+  --bckg-primary: #ffffff;
+  --bckg-secondary: #f5f4fa;
+  --bckg-dark: #2f303a;
 }
 
 .logo {
   font-family: Raleway;
   font-size: 26;
   font-weight: 700;
+  line-height: 1.19;
 }
 .logo-begin {
-  color: #2196f3;
+  color: var(--color-accent);
 }
 .logo-end-black {
   color: #000000;
 }
+.logo-end-white {
+  color: #ffffff;
+}
+
 
 body {
   font-family: roboto, sans-serif;
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--bckg-primary);
+  color: var(--color-primary);
 }
 
 .list {
   list-style: none;
-  }
+}
 
 .list :visited {
   color: inherit;
 }
 .list :hover {
-  color: #2196f3;
+  color: var(--color-accent);
 }
 
-.list :focus{
-  color: #2196f3;
+.list :focus {
+  color: var(--color-accent);
 }
 
-.header-style{
-font-weight: 500;
+.header-style {
+  font-weight: 500;
 }
 
-.header-contacts{
-  color: #757575;
+.header-contacts {
+  color: var(--color-secondary);
+}
+
+.hero{
+
+}
+
+.sections-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.hero-header{
+ font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.features-headers{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.features-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--color-secondary);
+}
+
+
+.footer-ref {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-footer);
+  /*font-weight: 400;*/
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+
+.footer-ref:hover{
+  color: var(--color-accent);
+}
+.footer-ref:focus{
+  color: var(--color-accent);
+}
+
+.footer-address{
+  text-decoration: none;
+  font-style: normal;
+  color: #FFFFFF;
+  /*font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+/*letter-spacing: 0.03em;*/
+
+}
+
+.footer-address:hover{
+  color: var(--color-accent);
+}
+.footer-address:focus{
+  color: var(--color-accent);
+}
+
+ 
+.bckg-dark{
+  background-color: var(--bckg-dark);
+  
+}
+
+
+.button{
+  cursor: pointer;
 }

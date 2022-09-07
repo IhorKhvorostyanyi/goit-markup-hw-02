@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com" />-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./css/style.css" />
+    >
+    <link rel="stylesheet" href="./css/style.css" >
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav>
-        <a class="logo" href="#"
+        <a class="logo" href="./index.html"
           ><span class="logo-begin">Web</span
           ><span class="logo-end-black">Studio</span></a
         >
@@ -45,11 +43,11 @@
     <main>
       <section>
         <ul class="list">
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="button" type="button">Усі</button></li>
+          <li><button class="button" type="button">Веб-сайти</button></li>
+          <li><button class="button" type="button">Додатки</button></li>
+          <li><button class="button" type="button">Дизайн</button></li>
+          <li><button class="button" type="button">Маркетинг</button></li>
           <li></li>
         </ul>
         <ul class="list">
@@ -65,6 +63,8 @@
               <img
                 src="./images/poster-new-orlean-vs-golden-star.jpg"
                 alt="poster-new-orlean-vs-golden-star"
+                width="370"
+              />
               />
               <h3>Постер New Orlean vs Golden Star</h3>
               <p>Дизайн</p>
@@ -72,21 +72,33 @@
           </li>
           <li>
             <a href="">
-              <img src="./images/restoran-seafood.jpg" alt="restoran-seafood" />
+              <img
+                src="./images/restoran-seafood.jpg"
+                alt="restoran-seafood"
+                width="370"
+              />
               <h3>Ресторан Seafood</h3>
               <p>Додаток</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/project-prime.jpg" alt="project-prime" />
+              <img
+                src="./images/project-prime.jpg"
+                alt="project-prime"
+                width="370"
+              />
               <h3>Проєкт Prime</h3>
               <p>Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/project-boxes.jpg" alt="project-boxes" />
+              <img
+                src="./images/project-boxes.jpg"
+                alt="project-boxes"
+                width="370"
+              />
               <h3>Проєкт Boxes</h3>
               <p>Додаток</p>
             </a>
@@ -96,6 +108,7 @@
               <img
                 src="./images/inspirations-has-no-borders.jpg"
                 alt="inspirations-has-no-borders"
+                width="370"
               />
               <h3>Inspiration has no Borders</h3>
               <p>Веб-сайт</p>
@@ -106,6 +119,7 @@
               <img
                 src="./images/vydannya-limited-edition.jpg"
                 alt="vydannya-limited-edition.jpg"
+                width="370"
               />
               <h3>Видання Limited Edition</h3>
               <p>Дизайн</p>
@@ -113,14 +127,22 @@
           </li>
           <li>
             <a href="">
-              <img src="./images/project-lab.jpg" alt="project-lab" />
+              <img
+                src="./images/project-lab.jpg"
+                alt="project-lab"
+                width="370"
+              />
               <h3>Проєкт LAB</h3>
               <p>Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/groving-business.jpg" alt="groving-business" />
+              <img
+                src="./images/groving-business.jpg"
+                alt="groving-business"
+                width="370"
+              />
               <h3>Growing Business</h3>
               <p>Додаток</p>
             </a>
@@ -129,21 +151,25 @@
       </section>
     </main>
 
-    <footer>
-      <a class="logo" href="#"
+    <footer class="bckg-dark">
+      <a class="logo" href="./index.html"
         ><span class="logo-begin">Web</span
-        ><span class="logo-end-black">Studio</span></a
+        ><span class="logo-end-white">Studio</span></a
       >
       <address>
         <a
+          class="footer-address"
           href="https://goo.gl/maps/KNuMFoGWD1NAP8xu9"
           target="_blank"
           rel="noopener noreferrer"
           >м. Київ, пр-т Лесі Українки, 26</a
         >
         <br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="footer-ref" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <br />
+        <a class="footer-ref" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
