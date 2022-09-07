@@ -105,6 +105,9 @@ letter-spacing: 0.03em;
 color: var(--color-secondary);
 }
 
+.list-untouch{
+  list-style: none; 
+}
 
 .footer-ref {
   text-decoration: none;
