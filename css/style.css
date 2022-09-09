@@ -51,6 +51,12 @@ body {
   list-style: none;
 }
 
+
+.list-no-hilights {
+  list-style: none;
+}
+
+
 .list :visited {
   color: inherit;
 }
