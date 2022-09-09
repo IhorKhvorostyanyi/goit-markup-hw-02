@@ -22,6 +22,7 @@ bkg color3 #2F303A
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -142,6 +143,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  /*color: var(--color-primary);*/
 }
 
 .portfolio-text {
